@@ -2,21 +2,57 @@
     Layout = "~/Views/Shared/_Layout2.cshtml";
 }
 
+<link rel="stylesheet" type="text/css" href="~/Style/MissionFAQ.css">
+<div class="container">
+
+    <div class="row">
+        <div class="col-sm-5"><img src="~/Images/@ViewBag.image" /> </div>
+        <div class="col-sm-7">
+            <ul>
+                <li>@ViewBag.mission</li>
+                <li> @ViewBag.presName</li>
+                <li> @ViewBag.missionAddress</li>
+                <li>@ViewBag.language</li>
+                <li>@ViewBag.climate</li>
+                <li> @ViewBag.domReligion</li>
+            </ul>
+        </div>
+    </div><!--row div-->
 
 
-<h2>Here are Some Frequently Asked Questions about Your Mission</h2>
 
-<img src="~/Images/@ViewBag.image" />
+</div>
 
 
-<ul>
-    <li>@ViewBag.mission</li>
-    <li> @ViewBag.presName</li>
-    <li> @ViewBag.missionAddress</li>
-    <li>@ViewBag.language</li>
-    <li>@ViewBag.climate</li>
-    <li> @ViewBag.domReligion</li>
-  
-</ul>
 
-<p>flag or symbol for the mission</p>
+
+
+
+
+
+<h3>Here are Some Frequently Asked Questions about Your Mission</h3>
+
+<p>What is the population of my mission area?</p>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#reply").click(function () {
+            $(".replyBox").toggle();
+        });
+    });
+</script>
+<button id="reply">Reply</button> <input class="replyBox" type="text" placeholder="Enter Your Reply Here"><br>
+
+    
+    <p>How can I prepare to learn the language? </p>
+    <p>What is the food like?</p>
+
+    <form class="form-inline" role="form">
+
+        <div class="form-group">
+            <label class="sr-only" for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter Your Question">
+        </div>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>

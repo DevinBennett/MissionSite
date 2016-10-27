@@ -2,19 +2,21 @@
 @{
     ViewBag.Title = "Index";
 }
-
+<link rel="stylesheet" type="text/css" href="~/Style/Index.css">
 <h2>Missions</h2>
 
-<h2>Find Your Mission!</h2>
+<div class="jumbotron">
+    <h2>Find Your Mission!</h2>
 
-<div class="dropdown">
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
-        Dropdown Example
-        <span class="caret"></span>
-    </button>
-    <ul class="dropdown-menu">
-        <li> <a href="@Url.Action("MissionFAQ", "Missions", new { mission = "Korea" })"/>Korea, Seoul</li>
-        <li> <a href="@Url.Action("MissionFAQ", "Missions", new { mission = "Philippines" })" />Philippines Olongapo</li>
-        <li> <a href="@Url.Action("MissionFAQ", "Missions", new { mission = "Houston" })" />Texas, Houston</li>
-    </ul>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+            Dropdown Example
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li> <a href="@Url.Action("MissionFAQ", "Missions", new { mission = "Korea" })" />Korea, Seoul</li>
+            <li> <a href="@Url.Action("MissionFAQ", "Missions", new { mission = "Philippines" })" />Philippines Olongapo</li>
+            <li> <a href="@Url.Action("MissionFAQ", "Missions", new { mission = "Houston" })" />Texas, Houston</li>
+        </ul>
+    </div>
 </div>

@@ -1,0 +1,10 @@
+﻿
+.jumbotron{
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    padding: 10px;
+    height:125px;
+    width:475px;
+}
+

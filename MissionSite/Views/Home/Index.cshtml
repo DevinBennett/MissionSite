@@ -3,7 +3,8 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Called To Serve</h2>
+<link rel="stylesheet" type="text/css" href="~/Style/Index.css">
+<h1></h1>
 
 <div class="container">
 
@@ -13,8 +14,8 @@
         </div>
 
         <div class="jumbotron">
-            <h4>   Learn More About Your Mission! </h4>
-
+            <h4>  Click Here Learn More About Your Mission! </h4>
+            <p><a class="btn btn-default" href="@Url.Action("Index", "Missions")">Click Here &raquo;</a></p>
         </div>
 
         <div class="col-sm-5">
