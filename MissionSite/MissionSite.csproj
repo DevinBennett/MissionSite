@@ -176,6 +176,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\JavaScript\index.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\TexasFlag.jpg" />
@@ -189,9 +190,12 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Images\badge.jpg" />
     <Content Include="Images\Korea.gif" />
+    <Content Include="Images\moroni.jpg" />
     <Content Include="Images\Philippines.gif" />
     <Content Include="Images\Houston.jpg" />
+    <Content Include="Images\temple.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
@@ -210,7 +214,9 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
+    <Content Include="Style\ChooseMission.css" />
     <Content Include="Style\Index.css" />
+    <Content Include="Style\MissionFAQ.css" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

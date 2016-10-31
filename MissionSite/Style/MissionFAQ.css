@@ -2,3 +2,50 @@
 display: none;
 
 }
+
+.replyBox2 {
+display: none;
+
+}
+
+.replyBox3 {
+display: none;
+
+}
+
+h4{
+   
+   font-family: Garamond;
+   color:white;
+}
+
+h3{
+    font-family: Garamond;
+   color:white;
+}
+
+p{
+    font-family: Garamond;
+   color:white;
+}
+
+
+ 
+#landingContainer {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(http://www.drodd.com/images13/world-map17.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.row{
+    border:ridge;
+    padding:10px;
+}
+
+img{
+    border:ridge;
+}
